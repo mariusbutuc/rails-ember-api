@@ -7,6 +7,7 @@ gem 'rails-api'
 gem 'thin'
 gem 'active_model_serializers', :github => 'rails-api/active_model_serializers'
 gem 'pg'
+gem 'haml-rails'
 
 group :development, :test do
   gem 'debugger'
