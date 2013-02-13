@@ -3,5 +3,5 @@ App.Router.reopen
   rootUrl:  '/'
 
 App.Router.map ->
-  @resources 'users' ->
+  @resource 'users', ->
     @route 'new'
