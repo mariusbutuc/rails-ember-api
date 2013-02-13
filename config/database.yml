@@ -8,16 +8,16 @@ development:
   <<:       *defaults
   username: marius
   password:
-  database: wts_dev
+  database: ember_api_dev
 
 test:
   <<:       *defaults
-  username: postgres
+  username: marius
   password:
-  database: wts_test
+  database: ember_api_test
 
 production:
   <<:       *defaults
   username: postgres
   password:
-  database: wts_prod
+  database: ember_api_prod
