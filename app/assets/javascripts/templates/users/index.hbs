@@ -4,4 +4,11 @@
     <th>ID</th>
     <th>Name</th>
   </tr>
+
+  {{#each controller}}
+    <tr>
+      <td>{{id}} {{controller}}</td>
+      <td><a href="#">{{fullName}}</td>
+    </tr>
+  {{/each}}
 </table>
